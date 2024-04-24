@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final TextEditingController _priceController = TextEditingController();
   final TextEditingController _descriptionController = TextEditingController();
   String? _selectedPaymentMethod;
-  final List<String> _paymentMethods = ['👩 Visa Mimi', '🧔 Visa Dam', '💰 PayPal'];
+  final List<String> _paymentMethods = ['👩 Visa Mimi', '🧔 Visa Dam', '💰 PayPal', '🧾 Check', '🏦 Bank Transfer'];
 
   @override
   void initState() {
